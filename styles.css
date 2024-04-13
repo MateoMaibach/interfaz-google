@@ -1,0 +1,165 @@
+header{
+    width: 100%;
+   
+}
+
+body{
+    background-color: rgb(53, 53, 53);
+    
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+
+.navegacion h1{
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion button{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.fotoperfil{
+    width: 40px; 
+    height: 40px; 
+    background-color: #ccc; 
+    border-radius: 50%; 
+    margin-top:15px;
+    margin-left: 10px;
+}
+
+.google-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    z-index: 2;
+    
+   
+}
+
+.text{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 100%;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.mic{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-right: 60px;
+    padding-left: 10px;
+}
+
+.cam{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-right: 30px;
+    
+}
+
+
+
+.Botones2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.boton{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #424446;
+    cursor: pointer;
+    border-radius: 10px;
+ 
+    
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: grey;
+    margin-top: 12px;
+}
+
+.txt a{
+    color:cornflowerblue;
+}
+
+.izq{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 10px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    
+}
+
+.inf a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.der{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 10px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
+.pais{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 12px;
+    
+}
